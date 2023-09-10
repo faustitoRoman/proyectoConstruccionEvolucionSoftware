@@ -1,0 +1,27 @@
+@api = http://localhost:3000/producto
+GET {{api}}
+###
+POST {{api}}
+Content-Type: application/json 
+
+{
+    "id":10,
+    "nombre":"Papas",
+    "cantidad":"1000",
+    "tipo":"Comestible"    
+}
+###
+GET {{api}}/10
+###
+DELETE {{api}}/4
+###
+GET {{api}}/count
+###
+PUT {{api}}/10
+Content-Type: application/json
+
+{
+  "nombre": "Arozzzzz",
+  "cantidad": 3,
+  "tipo": "COMSTIBLE"
+}
