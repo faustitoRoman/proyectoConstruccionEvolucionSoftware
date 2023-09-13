@@ -144,7 +144,7 @@
 ```
 
 ### `query.js`
-    - **Purpose**: To define all the SQL queries used in the `producto.controller.js` file.
+- **Purpose**: To define all the SQL queries used in the `producto.controller.js` file.
 ```javascript
     getAllProducts: 'SELECT * FROM producto',
     addNewProduct: 'INSERT INTO producto (id,nombre,cantidad,tipo) VALUES (@id, @nombre, @cantidad, @tipo)',
