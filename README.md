@@ -5,7 +5,7 @@
 ### `producto.controller.js`
     
 #### **`getProductos`**
-- **Purpose**: 
+- **Purpose**: Gets all products with their attributes.
 - **Parameters**:
   - `req`: The request object.
   - `res`: The response object.
@@ -24,7 +24,7 @@
 ```
 
 #### **`createNuevoProducto`**
-- **Purpose**: 
+- **Purpose**: Creates a new product. Must send all attributes with the request.
 - **Parameters**:
   - `req`: The request object.
   - `res`: The response object.
@@ -54,7 +54,7 @@
 ```
 
 #### **`getProductoById`**
-- **Purpose**: 
+- **Purpose**: Gets a product by its ID attribute.
 - **Parameters**:
   - `req`: The request object.
   - `res`: The response object.
@@ -75,7 +75,7 @@
 ```
 
 #### **`deleteProductoById`**
-- **Purpose**: 
+- **Purpose**: Deletes a product by its ID attribute.
 - **Parameters**:
   - `req`: The request object.
   - `res`: The response object.
@@ -98,7 +98,7 @@
 ```
 
 #### **`getTotalProductos`**
-- **Purpose**: 
+- **Purpose**: Gets the total number of products.
 - **Parameters**:
   - `req`: The request object.
   - `res`: The response object.
@@ -116,7 +116,7 @@
 ```
 
 #### **`updateProductoById`**
-- **Purpose**: 
+- **Purpose**: Updates a product by its ID attribute.
 - **Parameters**:
   - `req`: The request object.
   - `res`: The response object.
